@@ -74,12 +74,18 @@ with col3:
         """
         <div style='padding: 15px; background-color: #000000; border: 1px solid #ccc; border-radius: 10px; color: white;'>
             <h4>🕒 Timetable</h4>
-            📄 <a href='https://raw.githubusercontent.com/sachinova/Student_Portal/main/docs/Semester%20I%20(B).pdf' target='_blank' style='color: white;'>Download Section-B TimeTable</a><br><br>
-            📄 <a href='https://raw.githubusercontent.com/sachinova/Student_Portal/main/docs/Semester%20I%20(A).pdf' target='_blank' style='color: white;'>Download Section-A TimeTable</a>
         </div>
         """,
         unsafe_allow_html=True
     )
+    div1, div2 = st.columns(2)
+    # Button to show timetable image
+    with div1:
+        if st.button("📸 Show Section A Timetable Image"):
+            st.image("images/1Y-TT/tt-B.jpg", caption="Section A Timetable", use_column_width=True)
+    with div2:
+        if st.button("📸 Show Section B Timetable Image"):
+            st.image("images/1Y-TT/tt-B.jpg", caption="Section B Timetable", use_column_width=True)
 
 with col4:
     st.markdown(
@@ -123,6 +129,7 @@ with col6:
 # Footer
 st.markdown("---")
 st.caption("Designed for first-year students to make your academic journey smoother!")
+
 
 
 
