@@ -23,7 +23,7 @@ def add_bg_from_local(image_file):
          unsafe_allow_html=True
      )
 
- ✅ Use your correct image path here
+# ✅ Use your correct image path here
 add_bg_from_local("images/background/bg.png")
 
 
@@ -154,6 +154,7 @@ with col6:
 # Footer
 st.markdown("---")
 st.caption("Designed for first-year students to make your academic journey smoother!")
+
 
 
 
