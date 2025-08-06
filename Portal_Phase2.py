@@ -114,43 +114,26 @@ with col3:
 
 
 
+
 with col4:
+    # Open container
     st.markdown("""
-    <div style='
-        padding: 20px; 
-        background-color: #000000; 
-        border: 1px solid #ccc; 
-        border-radius: 10px; 
-        color: white;
-    '>
-        <h4 style="margin-bottom: 20px;">🔥 Certification Courses</h4>
-
-        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
-
-            <a href='https://www.canva.com/en/design-school/courses/marketing-with-canva' 
-               style='color:white; text-decoration:none; background:#1e1e1e; padding:10px; border-radius:5px;'>
-               🖌️ Design & Canva
-            </a>
-
-            <a href='https://www.tcsion.com/courses/bfsi/understanding-market-risk-in-financial-sector' 
-               style='color:white; text-decoration:none; background:#1e1e1e; padding:10px; border-radius:5px;'>
-               📊 Risk Management
-            </a>
-
-            <a href='https://www.life-global.org/course/24-cash-flow' 
-               style='color:white; text-decoration:none; background:#1e1e1e; padding:10px; border-radius:5px;'>
-               💸 Cash Flow Management
-            </a>
-
-            <a href='https://www.life-global.org/course/31-marketing-benefits-vs.-features' 
-               style='color:white; text-decoration:none; background:#1e1e1e; padding:10px; border-radius:5px;'>
-               📈 Marketing
-            </a>
-
-        </div>
-    </div>
+        <div style='padding: 20px; background-color: #000000; border: 1px solid #ccc; border-radius: 10px; color: white;'>
+            <h4>🔥 Certification Courses</h4>
     """, unsafe_allow_html=True)
 
+    col7, col8 = st.columns(2)
+
+    with col7:
+            st.markdown("[Design & Canva](https://www.canva.com/en/design-school/courses/marketing-with-canva)")
+            st.markdown("[Risk Management](https://www.tcsion.com/courses/bfsi/understanding-market-risk-in-financial-sector)")
+
+    with col8:
+            st.markdown("[Cash Flow Management](https://www.life-global.org/course/24-cash-flow)")
+            st.markdown("[Marketing](https://www.life-global.org/course/31-marketing-benefits-vs.-features)")
+
+    # Close container
+    st.markdown("</div>", unsafe_allow_html=True)
 
 
 
@@ -186,6 +169,7 @@ with col6:
 # Footer
 st.markdown("---")
 st.caption("Designed for first-year students to make your academic journey smoother!")
+
 
 
 
