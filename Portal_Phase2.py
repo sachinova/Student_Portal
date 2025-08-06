@@ -88,6 +88,40 @@ with col2:
         unsafe_allow_html=True
     )
 
+
+
+
+
+    
+# Spacer between rows
+st.markdown("<br>", unsafe_allow_html=True)
+
+# Row 3: Academic Calendar & Reference Books
+col5, col6 = st.columns(2)
+
+with col5:
+    st.markdown(
+        """
+        <div style='padding: 15px; background-color: #000000; border: 1px solid #ccc; border-radius: 10px; color: white;'>
+            <h4>📅 Academic Calendar</h4>
+            📄 <a href='https://www.du.ac.in/uploads/new-web/04072025_Academic-Calendar.pdf' target='_blank' style='color: white;'>Check Academic Calendar</a>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+
+with col6:
+    st.markdown(
+        """
+        <div style='padding: 15px; background-color: #000000; border: 1px solid #ccc; border-radius: 10px;'>
+            <h4>📂 Reference Books</h4>
+            📄 <a href='docs/reference_books.pdf' target='_blank'>List of Recommended Books</a>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+
+
 # Spacer between rows
 st.markdown("<br>", unsafe_allow_html=True)
 
@@ -178,38 +212,10 @@ with col4:
 
 
 
-    
-# Spacer between rows
-st.markdown("<br>", unsafe_allow_html=True)
-
-# Row 3: Academic Calendar & Reference Books
-col5, col6 = st.columns(2)
-
-with col5:
-    st.markdown(
-        """
-        <div style='padding: 15px; background-color: #000000; border: 1px solid #ccc; border-radius: 10px; color: white;'>
-            <h4>📅 Academic Calendar</h4>
-            📄 <a href='https://www.du.ac.in/uploads/new-web/04072025_Academic-Calendar.pdf' target='_blank' style='color: white;'>Check Academic Calendar</a>
-        </div>
-        """,
-        unsafe_allow_html=True
-    )
-
-with col6:
-    st.markdown(
-        """
-        <div style='padding: 15px; background-color: #000000; border: 1px solid #ccc; border-radius: 10px;'>
-            <h4>📂 Reference Books</h4>
-            📄 <a href='docs/reference_books.pdf' target='_blank'>List of Recommended Books</a>
-        </div>
-        """,
-        unsafe_allow_html=True
-    )
-
 # Footer
 st.markdown("---")
 st.caption("Designed for first-year students to make your academic journey smoother!")
+
 
 
 
