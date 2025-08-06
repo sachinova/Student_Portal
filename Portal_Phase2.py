@@ -1,4 +1,34 @@
 import streamlit as st
+import base64
+
+# Set page config
+st.set_page_config(page_title="Math App", layout="wide")
+
+# Function to add background
+def add_bg_from_local(image_file):
+    with open(image_file, "rb") as image:
+        encoded = base64.b64encode(image.read()).decode()
+    st.markdown(
+         f"""
+         <style>
+         .stApp {{
+             background-image: url("data:image/png;base64,{encoded}");
+             background-size: cover;
+             background-repeat: no-repeat;
+             background-attachment: fixed;
+         }}
+         </style>
+         """,
+         unsafe_allow_html=True
+     )
+
+# Call the function with your file path
+add_bg_from_local("images/Untitled design (2).png")
+
+# Sample content
+st.title("📘 Welcome to Math World")
+st.write("This Streamlit app has a custom chalkboard background!")
+
 
 # Set page title
 st.set_page_config(page_title="Student Portal", layout="wide")
@@ -129,6 +159,7 @@ with col6:
 # Footer
 st.markdown("---")
 st.caption("Designed for first-year students to make your academic journey smoother!")
+
 
 
 
