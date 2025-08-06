@@ -117,20 +117,39 @@ with col3:
 
 with col4:
     # Open container
-    st.markdown("""
-        <div style='padding: 20px; background-color: #000000; border: 1px solid #ccc; border-radius: 10px; color: white;'>
+    st.markdown(
+        """
+        <div style='padding: 15px; background-color: #000000; border: 1px solid #ccc; border-radius: 10px; color: white;'>
             <h4>🔥 Certification Courses</h4>
-    """, unsafe_allow_html=True)
+        """,
+        unsafe_allow_html=True
+    )
 
     col7, col8 = st.columns(2)
-
     with col7:
-            st.markdown("[Design & Canva](https://www.canva.com/en/design-school/courses/marketing-with-canva)")
-            st.markdown("[Risk Management](https://www.tcsion.com/courses/bfsi/understanding-market-risk-in-financial-sector)")
-
+        st.markdown(
+            """
+            <a href='https://www.canva.com/en/design-school/courses/marketing-with-canva' target='_blank' style='color: white; text-decoration: underline;'>
+                Design & Canva
+            </a><br>
+            <a href='https://www.tcsion.com/courses/bfsi/understanding-market-risk-in-financial-sector' target='_blank' style='color: white; text-decoration: underline;'>
+                Risk Management
+            </a>
+            """,
+            unsafe_allow_html=True
+        )
     with col8:
-            st.markdown("[Cash Flow Management](https://www.life-global.org/course/24-cash-flow)")
-            st.markdown("[Marketing](https://www.life-global.org/course/31-marketing-benefits-vs.-features)")
+        st.markdown(
+            """
+            <a href='https://www.life-global.org/course/24-cash-flow' target='_blank' style='color: white; text-decoration: underline;'>
+                Cash Flow Management
+            </a><br>
+            <a href='https://www.life-global.org/course/31-marketing-benefits-vs.-features' target='_blank' style='color: white; text-decoration: underline;'>
+                Marketing
+            </a>
+            """,
+            unsafe_allow_html=True
+        )
 
     # Close container
     st.markdown("</div>", unsafe_allow_html=True)
@@ -169,6 +188,7 @@ with col6:
 # Footer
 st.markdown("---")
 st.caption("Designed for first-year students to make your academic journey smoother!")
+
 
 
 
