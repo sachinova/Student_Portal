@@ -24,7 +24,7 @@ def add_bg_from_local(image_file):
      )
 
 # ✅ Use your correct image path here
-add_bg_from_local("images/background/Untitled design (2).png")
+add_bg_from_local("images/background/ef4af30e-290a-4a14-b483-6d5b216db496.png")
 
 
 st.set_page_config(page_title="Student Portal", layout="wide")
@@ -154,6 +154,7 @@ with col6:
 # Footer
 st.markdown("---")
 st.caption("Designed for first-year students to make your academic journey smoother!")
+
 
 
 
