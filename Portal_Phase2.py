@@ -5,6 +5,7 @@ import base64
 st.set_page_config(page_title="Math App", layout="wide")
 
 # Function to add background
+# Function to add background
 def add_bg_from_local(image_file):
     with open(image_file, "rb") as image:
         encoded = base64.b64encode(image.read()).decode()
@@ -22,12 +23,12 @@ def add_bg_from_local(image_file):
          unsafe_allow_html=True
      )
 
-# Call the function with your file path
-add_bg_from_local("images/Untitled design (2).png")
+# ✅ Use your correct image path here
+add_bg_from_local("images/background/Untitled design (2).png")
 
 # Sample content
 st.title("📘 Welcome to Math World")
-st.write("This Streamlit app has a custom chalkboard background!")
+st.write("This is a student hub for all academic essentials!")
 
 
 # Set page title
@@ -159,6 +160,7 @@ with col6:
 # Footer
 st.markdown("---")
 st.caption("Designed for first-year students to make your academic journey smoother!")
+
 
 
 
