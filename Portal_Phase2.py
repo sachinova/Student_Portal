@@ -116,24 +116,41 @@ with col3:
 
 with col4:
     st.markdown("""
-    <div style='padding: 20px; background-color: #000000; border: 1px solid #ccc; border-radius: 10px; color: white;'>
+    <div style='
+        padding: 20px; 
+        background-color: #000000; 
+        border: 1px solid #ccc; 
+        border-radius: 10px; 
+        color: white;
+    '>
+        <h4 style="margin-bottom: 20px;">🔥 Certification Courses</h4>
 
-        <h4>🔥 Certification Courses</h4>
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
 
-        <div style="display: flex; justify-content: space-between;">
-            <div>
-                <p><a href='https://www.canva.com/en/design-school/courses/marketing-with-canva' style='color:white; text-decoration:none;'>Design & Canva</a></p>
-                <p><a href='https://www.tcsion.com/courses/bfsi/understanding-market-risk-in-financial-sector' style='color:white; text-decoration:none;'>Risk Management</a></p>
-            </div>
+            <a href='https://www.canva.com/en/design-school/courses/marketing-with-canva' 
+               style='color:white; text-decoration:none; background:#1e1e1e; padding:10px; border-radius:5px;'>
+               🖌️ Design & Canva
+            </a>
 
-            <div>
-                <p><a href='https://www.life-global.org/course/24-cash-flow' style='color:white; text-decoration:none;'>Cash Flow Management</a></p>
-                <p><a href='https://www.life-global.org/course/31-marketing-benefits-vs.-features' style='color:white; text-decoration:none;'>Marketing</a></p>
-            </div>
+            <a href='https://www.tcsion.com/courses/bfsi/understanding-market-risk-in-financial-sector' 
+               style='color:white; text-decoration:none; background:#1e1e1e; padding:10px; border-radius:5px;'>
+               📊 Risk Management
+            </a>
+
+            <a href='https://www.life-global.org/course/24-cash-flow' 
+               style='color:white; text-decoration:none; background:#1e1e1e; padding:10px; border-radius:5px;'>
+               💸 Cash Flow Management
+            </a>
+
+            <a href='https://www.life-global.org/course/31-marketing-benefits-vs.-features' 
+               style='color:white; text-decoration:none; background:#1e1e1e; padding:10px; border-radius:5px;'>
+               📈 Marketing
+            </a>
+
         </div>
-
     </div>
     """, unsafe_allow_html=True)
+
 
 
 
@@ -169,6 +186,7 @@ with col6:
 # Footer
 st.markdown("---")
 st.caption("Designed for first-year students to make your academic journey smoother!")
+
 
 
 
