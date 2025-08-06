@@ -113,15 +113,26 @@ with col3:
             st.image("images/1Y-TT/tt-B.png", caption="Section B Timetable", use_container_width=True)
 
 with col4:
+    col7, col8 = st.columns(2)
     st.markdown(
         """
-        <div style='padding: 15px; background-color: #000000; border: 1px solid #ccc; border-radius: 10px;'>
-            <h4>📑 Assignment Templates</h4>
-            📄 <a href='docs/assignment_template.pdf' target='_blank'>View Assignment Format</a>
+        <div style='padding: 15px; background-color: #000000; border: 1px solid #ccc; border-radius: 10px; color: white;'>
+            <h4> Certification Courses 🔥</h4>
         </div>
         """,
         unsafe_allow_html=True
     )
+    with col7:
+        if st.button("Design & Canva"):
+            st.markdown("[Let's Get Started](https://www.canva.com/en/design-school/courses/marketing-with-canva).")
+        if st.button("Risk Management"):
+            st.markdown("[Let's Get Started](https://www.tcsion.com/courses/bfsi/understanding-market-risk-in-financial-sector).")
+            
+    with col7:
+        if st.button("Cash Flow Management"):
+            st.markdown("[Let's Get Started](https://www.life-global.org/course/24-cash-flow).")
+        if st.button("Marketing"):
+            st.markdown("[Let's Get Started](https://www.life-global.org/course/31-marketing-benefits-vs.-features).")
 
 # Spacer between rows
 st.markdown("<br>", unsafe_allow_html=True)
@@ -154,6 +165,7 @@ with col6:
 # Footer
 st.markdown("---")
 st.caption("Designed for first-year students to make your academic journey smoother!")
+
 
 
 
