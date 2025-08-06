@@ -124,16 +124,12 @@ with col4:
     col7, col8 = st.columns(2)
 
     with col7:
-        if st.button("Design & Canva"):
-            st.markdown("[Let's Get Started](https://www.canva.com/en/design-school/courses/marketing-with-canva)")
-        if st.button("Risk Management"):
-            st.markdown("[Let's Get Started](https://www.tcsion.com/courses/bfsi/understanding-market-risk-in-financial-sector)")
+        st.markdown("<a href='https://www.canva.com/en/design-school/courses/marketing-with-canva' style='color:white; text-decoration:none;'>Design & Canva</a>", unsafe_allow_html=True)
+        st.markdown("<a href='https://www.tcsion.com/courses/bfsi/understanding-market-risk-in-financial-sector' style='color:white; text-decoration:none;'>Risk Management</a>", unsafe_allow_html=True)
 
     with col8:
-        if st.button("Cash Flow Management"):
-            st.markdown("[Let's Get Started](https://www.life-global.org/course/24-cash-flow)")
-        if st.button("Marketing"):
-            st.markdown("[Let's Get Started](https://www.life-global.org/course/31-marketing-benefits-vs.-features)")
+        st.markdown("<a href='https://www.life-global.org/course/24-cash-flow' style='color:white; text-decoration:none;'>Cash Flow Management</a>", unsafe_allow_html=True)
+        st.markdown("<a href='https://www.life-global.org/course/31-marketing-benefits-vs.-features' style='color:white; text-decoration:none;'>Marketing</a>", unsafe_allow_html=True)
 
     # Close container
     st.markdown("</div>", unsafe_allow_html=True)
@@ -171,6 +167,7 @@ with col6:
 # Footer
 st.markdown("---")
 st.caption("Designed for first-year students to make your academic journey smoother!")
+
 
 
 
