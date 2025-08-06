@@ -26,21 +26,15 @@ def add_bg_from_local(image_file):
 # ✅ Use your correct image path here
 add_bg_from_local("images/background/Untitled design (2).png")
 
-# Sample content
-st.title("📘 Welcome to Math World")
-st.write("This is a student hub for all academic essentials!")
 
-
-# Set page title
 st.set_page_config(page_title="Student Portal", layout="wide")
 
 
 L1 , L2 = st.columns([3,1])
 # Title and intro
 with L1:
-    st.title("📘 First Year Student Portal")
-    st.subheader("Welcome to the student hub for all academic essentials!")
-
+    st.title("📘 Welcome to Math World")
+    st.write("This is a student hub for all academic essentials!")
 with L2:
      st.image("images/community.jpg", width=200, caption="Join the community")
 
@@ -160,6 +154,7 @@ with col6:
 # Footer
 st.markdown("---")
 st.caption("Designed for first-year students to make your academic journey smoother!")
+
 
 
 
