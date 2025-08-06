@@ -129,9 +129,11 @@ with col4:
     with col7:
         st.markdown(
             """
+            <div style='padding: 15px; background-color: #000000; border: 1px solid #ccc; border-radius: 10px; color: white;'>
             <a href='https://www.canva.com/en/design-school/courses/marketing-with-canva' target='_blank' style='color: white; text-decoration: underline;'>
                 Design & Canva
             </a><br>
+            <div style='padding: 15px; background-color: #000000; border: 1px solid #ccc; border-radius: 10px; color: white;'>
             <a href='https://www.tcsion.com/courses/bfsi/understanding-market-risk-in-financial-sector' target='_blank' style='color: white; text-decoration: underline;'>
                 Risk Management
             </a>
@@ -140,10 +142,12 @@ with col4:
         )
     with col8:
         st.markdown(
-            """
+            """<div style='padding: 15px; background-color: #000000; border: 1px solid #ccc; border-radius: 10px; color: white;'>
             <a href='https://www.life-global.org/course/24-cash-flow' target='_blank' style='color: white; text-decoration: underline;'>
+            <div style='padding: 15px; background-color: #000000; border: 1px solid #ccc; border-radius: 10px; color: white;'>
                 Cash Flow Management
             </a><br>
+            <div style='padding: 15px; background-color: #000000; border: 1px solid #ccc; border-radius: 10px; color: white;'>
             <a href='https://www.life-global.org/course/31-marketing-benefits-vs.-features' target='_blank' style='color: white; text-decoration: underline;'>
                 Marketing
             </a>
@@ -188,6 +192,7 @@ with col6:
 # Footer
 st.markdown("---")
 st.caption("Designed for first-year students to make your academic journey smoother!")
+
 
 
 
