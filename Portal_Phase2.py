@@ -103,7 +103,7 @@ with col5:
         """
         <div style='padding: 15px; background-color: #000000; border: 1px solid #ccc; border-radius: 10px; color: white;'>
             <h4>📅 Academic Calendar</h4>
-            📄 <a href='student_portal\docs\Academic-Calendar.pdf' target='_blank' style='color: white;'>Check Academic Calendar</a>
+            📄 <a href='https://www.du.ac.in/uploads/new-web/04072025_Academic-Calendar.pdf' target='_blank' style='color: white;'>Check Academic Calendar</a>
         </div>
         """,
         unsafe_allow_html=True
@@ -123,6 +123,7 @@ with col6:
 # Footer
 st.markdown("---")
 st.caption("Designed for first-year students to make your academic journey smoother!")
+
 
 
 
