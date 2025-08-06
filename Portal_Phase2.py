@@ -112,15 +112,14 @@ with col3:
         if st.button("📸 Show Section B Timetable Image"):
             st.image("images/1Y-TT/tt-B.png", caption="Section B Timetable", use_container_width=True)
 
+import streamlit as st
+
 with col4:
-    st.markdown(
-        """
-        <div style='padding: 15px; background-color: #000000; border: 1px solid #ccc; border-radius: 10px; color: white;'>
+    # Open container
+    st.markdown("""
+        <div style='padding: 20px; background-color: #000000; border: 1px solid #ccc; border-radius: 10px; color: white;'>
             <h4>🔥 Certification Courses</h4>
-        </div>
-        """,
-        unsafe_allow_html=True
-    )
+    """, unsafe_allow_html=True)
 
     col7, col8 = st.columns(2)
 
@@ -135,6 +134,10 @@ with col4:
             st.markdown("[Let's Get Started](https://www.life-global.org/course/24-cash-flow)")
         if st.button("Marketing"):
             st.markdown("[Let's Get Started](https://www.life-global.org/course/31-marketing-benefits-vs.-features)")
+
+    # Close container
+    st.markdown("</div>", unsafe_allow_html=True)
+
 
     
 # Spacer between rows
@@ -168,6 +171,7 @@ with col6:
 # Footer
 st.markdown("---")
 st.caption("Designed for first-year students to make your academic journey smoother!")
+
 
 
 
