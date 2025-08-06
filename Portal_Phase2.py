@@ -82,10 +82,10 @@ with col3:
     # Button to show timetable image
     with div1:
         if st.button("📸 Show Section A Timetable Image"):
-            st.image("images/1Y-TT/tt-B.jpg", caption="Section A Timetable", use_column_width=True)
+            st.image("images/1Y-TT/tt-B.png", caption="Section A Timetable", use_container_width=True)
     with div2:
         if st.button("📸 Show Section B Timetable Image"):
-            st.image("images/1Y-TT/tt-B.jpg", caption="Section B Timetable", use_column_width=True)
+            st.image("images/1Y-TT/tt-B.png", caption="Section B Timetable", use_container_width=True)
 
 with col4:
     st.markdown(
@@ -129,6 +129,7 @@ with col6:
 # Footer
 st.markdown("---")
 st.caption("Designed for first-year students to make your academic journey smoother!")
+
 
 
 
