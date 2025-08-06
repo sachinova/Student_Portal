@@ -112,27 +112,29 @@ with col3:
         if st.button("📸 Show Section B Timetable Image"):
             st.image("images/1Y-TT/tt-B.png", caption="Section B Timetable", use_container_width=True)
 
-import streamlit as st
+
 
 with col4:
-    # Open container
     st.markdown("""
-        <div style='padding: 20px; background-color: #000000; border: 1px solid #ccc; border-radius: 10px; color: white;'>
-            <h4>🔥 Certification Courses</h4>
+    <div style='padding: 20px; background-color: #000000; border: 1px solid #ccc; border-radius: 10px; color: white;'>
+
+        <h4>🔥 Certification Courses</h4>
+
+        <div style="display: flex; justify-content: space-between;">
+            <div>
+                <p><a href='https://www.canva.com/en/design-school/courses/marketing-with-canva' style='color:white; text-decoration:none;'>Design & Canva</a></p>
+                <p><a href='https://www.tcsion.com/courses/bfsi/understanding-market-risk-in-financial-sector' style='color:white; text-decoration:none;'>Risk Management</a></p>
+            </div>
+
+            <div>
+                <p><a href='https://www.life-global.org/course/24-cash-flow' style='color:white; text-decoration:none;'>Cash Flow Management</a></p>
+                <p><a href='https://www.life-global.org/course/31-marketing-benefits-vs.-features' style='color:white; text-decoration:none;'>Marketing</a></p>
+            </div>
+        </div>
+
+    </div>
     """, unsafe_allow_html=True)
 
-    col7, col8 = st.columns(2)
-
-    with col7:
-        st.markdown("<a href='https://www.canva.com/en/design-school/courses/marketing-with-canva' style='color:white; text-decoration:none;'>Design & Canva</a>", unsafe_allow_html=True)
-        st.markdown("<a href='https://www.tcsion.com/courses/bfsi/understanding-market-risk-in-financial-sector' style='color:white; text-decoration:none;'>Risk Management</a>", unsafe_allow_html=True)
-
-    with col8:
-        st.markdown("<a href='https://www.life-global.org/course/24-cash-flow' style='color:white; text-decoration:none;'>Cash Flow Management</a>", unsafe_allow_html=True)
-        st.markdown("<a href='https://www.life-global.org/course/31-marketing-benefits-vs.-features' style='color:white; text-decoration:none;'>Marketing</a>", unsafe_allow_html=True)
-
-    # Close container
-    st.markdown("</div>", unsafe_allow_html=True)
 
 
     
@@ -167,6 +169,7 @@ with col6:
 # Footer
 st.markdown("---")
 st.caption("Designed for first-year students to make your academic journey smoother!")
+
 
 
 
