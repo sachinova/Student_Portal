@@ -118,17 +118,17 @@ with col4:
         """
         <div style='padding: 15px; background-color: #000000; border: 1px solid #ccc; border-radius: 10px; color: white;'>
          <h4> Certification Courses 🔥</h4>
-        with col7:
+        <with col7:
         if st.button("Design & Canva"):
             st.markdown("[Let's Get Started](https://www.canva.com/en/design-school/courses/marketing-with-canva).")
         if st.button("Risk Management"):
-            st.markdown("[Let's Get Started](https://www.tcsion.com/courses/bfsi/understanding-market-risk-in-financial-sector).")
+            st.markdown("[Let's Get Started](https://www.tcsion.com/courses/bfsi/understanding-market-risk-in-financial-sector).")>
             
-    with col8:
+    <with col8:
         if st.button("Cash Flow Management"):
             st.markdown("[Let's Get Started](https://www.life-global.org/course/24-cash-flow).")
         if st.button("Marketing"):
-            st.markdown("[Let's Get Started](https://www.life-global.org/course/31-marketing-benefits-vs.-features).")
+            st.markdown("[Let's Get Started](https://www.life-global.org/course/31-marketing-benefits-vs.-features).")>
         </div>
         """,
         unsafe_allow_html=True
@@ -165,6 +165,7 @@ with col6:
 # Footer
 st.markdown("---")
 st.caption("Designed for first-year students to make your academic journey smoother!")
+
 
 
 
