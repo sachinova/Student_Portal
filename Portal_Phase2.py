@@ -23,7 +23,7 @@ with col1:
     st.image("images/2.jpg", caption="INFINITY CUP", use_container_width=True)
 
 with col2:
-    st.image("images/1.jpg", caption="Lab Experiments", use_container_width=True)
+    st.image("images/1.jpg", caption="💖", use_container_width=True)
 
 with col3:
     st.image("images/3.jpg", caption="Supremum", use_container_width=True)
@@ -75,7 +75,7 @@ with col3:
         <div style='padding: 15px; background-color: #000000; border: 1px solid #ccc; border-radius: 10px; color: white;'>
             <h4>🕒 Timetable</h4>
             📄 <a href='student_portal\docs\Semester I (b).pdf' target='_blank' style='color: white;'>Download Section-B TimeTable</a><br><br>
-            📄 <a href='student_portal\docs\Semester I (b).pdf' target='_blank' style='color: white;'>Download Section-A TimeTable</a>
+            📄 <a href='docs/Semester I (A).pdf' target='_blank' style='color: white;'>Download Section-A TimeTable</a>
         </div>
         """,
         unsafe_allow_html=True
@@ -123,3 +123,4 @@ with col6:
 # Footer
 st.markdown("---")
 st.caption("Designed for first-year students to make your academic journey smoother!")
+
