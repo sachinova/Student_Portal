@@ -133,8 +133,8 @@ with col4:
             <div style='padding: 15px; background-color: #000000; border: 1px solid #ccc; border-radius: 10px; color: white;'>
                 Design & Canva
             </a><br>
-            <div style='padding: 15px; background-color: #000000; border: 1px solid #ccc; border-radius: 10px; color: white;'>
             <a href='https://www.tcsion.com/courses/bfsi/understanding-market-risk-in-financial-sector' target='_blank' style='color: white; text-decoration: underline;'>
+            <div style='padding: 15px; background-color: #000000; border: 1px solid #ccc; border-radius: 10px; color: white;'>   
                 Risk Management
             </a>
             """,
@@ -191,6 +191,7 @@ with col6:
 # Footer
 st.markdown("---")
 st.caption("Designed for first-year students to make your academic journey smoother!")
+
 
 
 
