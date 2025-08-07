@@ -2,7 +2,7 @@ import streamlit as st
 import base64
 
 # Set page config
-st.set_page_config(page_title="Math App", layout="wide")
+st.set_page_config(page_title="Notes", layout="wide")
 
 # Function to add background
 # Function to add background
