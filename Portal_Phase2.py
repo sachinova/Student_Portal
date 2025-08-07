@@ -158,57 +158,57 @@ with col4:
         """,
         unsafe_allow_html=True
     )
+    with st.expander("See more"):
+        col7, col8 = st.columns(2)
 
-    col7, col8 = st.columns(2)
+        with col7:
+            st.markdown(
+                """
+                <div style='padding: 15px; background-color: ##eeeedd; border: 1px solid #ccc; border-radius: 7px; color: white;'>
+                    <a href='https://www.canva.com/en/design-school/courses/marketing-with-canva' target='_blank' style='color: white; text-decoration: underline;'>
+                        Design & Canva
+                    </a>
+                </div>
+                """,
+                unsafe_allow_html=True
+            )
 
-    with col7:
-        st.markdown(
-            """
-            <div style='padding: 15px; background-color: ##eeeedd; border: 1px solid #ccc; border-radius: 7px; color: white;'>
-                <a href='https://www.canva.com/en/design-school/courses/marketing-with-canva' target='_blank' style='color: white; text-decoration: underline;'>
-                    Design & Canva
-                </a>
-            </div>
-            """,
-            unsafe_allow_html=True
-        )
+            st.markdown(
+                """
+                <div style='padding: 15px; background-color: ##eeeedd; border: 1px solid #ccc; border-radius: 7px; color: white;'>
+                    <a href='https://www.tcsion.com/courses/bfsi/understanding-market-risk-in-financial-sector' target='_blank' style='color: white; text-decoration: underline;'>
+                        Risk Management
+                    </a>
+                </div>
+                """,
+                unsafe_allow_html=True
+            )
 
-        st.markdown(
-            """
-            <div style='padding: 15px; background-color: ##eeeedd; border: 1px solid #ccc; border-radius: 7px; color: white;'>
-                <a href='https://www.tcsion.com/courses/bfsi/understanding-market-risk-in-financial-sector' target='_blank' style='color: white; text-decoration: underline;'>
-                    Risk Management
-                </a>
-            </div>
-            """,
-            unsafe_allow_html=True
-        )
+        with col8:
+            st.markdown(
+                """
+                <div style='padding: 15px; background-color: ##eeeedd; border: 1px solid #ccc; border-radius: 7px; color: white;'>
+                    <a href='https://www.life-global.org/course/24-cash-flow' target='_blank' style='color: white; text-decoration: underline;'>
+                        Cash Flow Management
+                    </a>
+                </div>
+                """,
+                unsafe_allow_html=True
+            )
 
-    with col8:
-        st.markdown(
-            """
-            <div style='padding: 15px; background-color: ##eeeedd; border: 1px solid #ccc; border-radius: 7px; color: white;'>
-                <a href='https://www.life-global.org/course/24-cash-flow' target='_blank' style='color: white; text-decoration: underline;'>
-                    Cash Flow Management
-                </a>
-            </div>
-            """,
-            unsafe_allow_html=True
-        )
+            st.markdown(
+                """
+                <div style='padding: 15px; background-color: ##eeeedd; border: 1px solid #ccc; border-radius: 7px; color: white;'>
+                    <a href='https://www.life-global.org/course/31-marketing-benefits-vs.-features' target='_blank' style='color: white; text-decoration: underline;'>
+                        Marketing
+                    </a>
+                </div>
+                """,
+                unsafe_allow_html=True
+            )
 
-        st.markdown(
-            """
-            <div style='padding: 15px; background-color: ##eeeedd; border: 1px solid #ccc; border-radius: 7px; color: white;'>
-                <a href='https://www.life-global.org/course/31-marketing-benefits-vs.-features' target='_blank' style='color: white; text-decoration: underline;'>
-                    Marketing
-                </a>
-            </div>
-            """,
-            unsafe_allow_html=True
-        )
-
-    # Close container
-    st.markdown("</div>", unsafe_allow_html=True)
+        # Close container
+        st.markdown("</div>", unsafe_allow_html=True)
 
 
 
