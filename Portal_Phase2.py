@@ -152,7 +152,7 @@ with col3:
 with col4:
     st.markdown(
         """
-        <div style='padding: 15px; background-color: #000000; border: 1px solid #ccc; border-radius: 10px; color: white;'>
+        <div style='padding: 10px; background-color: #000000; border: 1px solid #ccc; border-radius: 10px; color: white;'>
             <h4>🔥 Certification Courses</h4>
         </div>
         """,
@@ -214,7 +214,11 @@ with col4:
 
 # Footer
 st.markdown("---")
-st.caption("Designed for first-year students to make your academic journey smoother!")
+st.caption("Designed for first-year students to make Their academic journey smoother!")
+
+
+
+
 
 
 
