@@ -2,7 +2,6 @@ import streamlit as st
 import base64
 
 
-
 st.siderbar.title("Developer Info")
 colm1 , colm2 = st.columns(2)
 
@@ -238,6 +237,7 @@ with col4:
 # Footer
 st.markdown("---")
 st.caption("Designed for first-year students to make Their academic journey smoother!")
+
 
 
 
