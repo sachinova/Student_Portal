@@ -1,6 +1,25 @@
 import streamlit as st
 import base64
 
+
+
+st.siderbar.title("Developer Info")
+colm1 , colm2 = st.columns(2)
+
+with colm1:
+    st.sidebar.button("Linkedin")
+    st.sidebar.button("Instagram")
+    st.sidebar.button("Github")
+
+with colm2:
+    st.markdown("Visit")
+    st.markdown("Visit")
+    st.markdown("Visit")
+
+
+st.sidebar.button("")
+#st.sidebar.radio("")
+
 # Set page config
 st.set_page_config(page_title="Math App", layout="wide")
 
